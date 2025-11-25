@@ -15,6 +15,11 @@ export const navData = [
 		path: "/contact-us",
 		sub: [],
 	},
+	{
+		label: "Neurostaq",
+		path: "http://edstaq.github.io/neurostaq/",
+		sub: [],
+	},
 ];
 
 
