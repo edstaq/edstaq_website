@@ -16,8 +16,13 @@ export const navData = [
 		sub: [],
 	},
 	{
+		label: "Tutor Login",
+		path: "https://trp-edstaq.vercel.app/",
+		sub: [],
+	},
+	{
 		label: "Neurostaq",
-		path: "http://edstaq.github.io/neurostaq/",
+		path: "https://edstaq.github.io/neurostaq/",
 		sub: [],
 	},
 ];
