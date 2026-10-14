@@ -3,6 +3,7 @@ import { Send } from "lucide-react";
 import React, { useState } from "react";
 import CustomButton from "../ui/CustomButton";
 import Toast from "@/utils/Toast";
+import { FORM_SUBMIT_URL } from "@/lib/api-config";
 
 function FooterForm() {
 	const [email, setEmail] = useState("");
@@ -13,7 +14,7 @@ function FooterForm() {
         try {
 			setIsLoading(true);
 			const res = await fetch(
-				`https://script.google.com/macros/s/AKfycbwUPzGhpHbfdDmwkyZvVRpLdV50V5U7HKttMHy32V6n7AcUD08wS76b4P4ZUScMmqz2/exec?Email=${
+				`${FORM_SUBMIT_URL}?Email=${
 					email
 				}`
 			);

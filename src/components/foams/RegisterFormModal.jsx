@@ -5,6 +5,7 @@ import CustomInput from "../ui/CustomInput";
 import CustomButton from "../ui/CustomButton";
 import { X } from "lucide-react";
 import Toast from "@/utils/Toast";
+import { FORM_SUBMIT_URL } from "@/lib/api-config";
 
 function RegisterFormModal({ isModalOpen, setIsModalOpen }) {
 	const [formData, setFormData] = useState({
@@ -24,7 +25,7 @@ function RegisterFormModal({ isModalOpen, setIsModalOpen }) {
 		try {
 			setIsLoading(true);
 			const res = await fetch(
-				`https://script.google.com/macros/s/AKfycbwUPzGhpHbfdDmwkyZvVRpLdV50V5U7HKttMHy32V6n7AcUD08wS76b4P4ZUScMmqz2/exec?Name=${encodeURIComponent(
+				`${FORM_SUBMIT_URL}?Name=${encodeURIComponent(
 					formData.name
 				)}&Place=${encodeURIComponent(formData.place)}&Email=${
 					formData.email

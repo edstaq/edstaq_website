@@ -2,6 +2,7 @@
 import CustomButton from "@/components/ui/CustomButton";
 import CustomInput from "@/components/ui/CustomInput";
 import Toast from "@/utils/Toast";
+import { FORM_SUBMIT_URL } from "@/lib/api-config";
 import * as motion from "motion/react-client";
 import { useState } from "react";
 
@@ -21,7 +22,7 @@ function ContactusForam() {
 		try {
 			setIsLoading(true);
 			const res = await fetch(
-				`https://script.google.com/macros/s/AKfycbwUPzGhpHbfdDmwkyZvVRpLdV50V5U7HKttMHy32V6n7AcUD08wS76b4P4ZUScMmqz2/exec?Name=${encodeURIComponent(
+				`${FORM_SUBMIT_URL}?Name=${encodeURIComponent(
 					formData.name
 				)}&Place=${encodeURIComponent(formData.place)}&Email=${
 					formData.email
