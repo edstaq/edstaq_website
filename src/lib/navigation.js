@@ -21,8 +21,8 @@ export const navData = [
 		sub: [],
 	},
 	{
-		label: "Neurostaq",
-		path: "https://edstaq.github.io/neurostaq/",
+		label: "Student Portal",
+		path: "https://edstaq.github.io/Student_Portal/",
 		sub: [],
 	},
 ];
