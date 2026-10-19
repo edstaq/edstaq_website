@@ -22,7 +22,7 @@ export const navData = [
 	},
 	{
 		label: "Student Portal",
-		path: "https://edstaq.github.io/Student_Portal/",
+		path: "https://edstaq-student-portal.vercel.app/",
 		sub: [],
 	},
 ];
