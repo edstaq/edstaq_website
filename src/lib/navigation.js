@@ -25,6 +25,11 @@ export const navData = [
 		path: "https://edstaq-student-portal.vercel.app/",
 		sub: [],
 	},
+	{
+		label: "Diagnose your student",
+		path: "https://student-academic-diagnostic-tool.vercel.app/",
+		sub: [],
+	},
 ];
 
 
