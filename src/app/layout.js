@@ -48,7 +48,11 @@ export const metadata = {
 		"Edstaq",
 	],
 	verification: {
-		google: "ellmOUzPR6ldQ_EK-E75TexiM3bmRxJGQj2N_kYm6Do",
+		// Two Search Console owners: the original one, and EDSTAQ's own account (added 2026-11-10)
+		google: [
+			"ellmOUzPR6ldQ_EK-E75TexiM3bmRxJGQj2N_kYm6Do",
+			"QXyYNsnJwSuxPweS7050GnPuCa3eiLGsumyjiVbVhAo",
+		],
 	},
 	openGraph: {
 		title: SITE.name,
