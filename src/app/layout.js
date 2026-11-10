@@ -10,7 +10,11 @@ import MouseGradient from "@/components/ui/MouseGradient";
 import { Toaster } from "react-hot-toast";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { SITE } from "@/lib/seo-config";
+
+// Google Analytics 4 (property "edstaq.com", stream "edstaq website")
+const GA_ID = "G-EVPB0YYXWY";
 
 const poppins = Poppins({
 	variable: "--font-poppins",
@@ -112,6 +116,16 @@ export default function RootLayout({ children }) {
 					<Footer />
 				</main>
 			</body>
+			<Script
+				src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+				strategy="afterInteractive"
+			/>
+			<Script id="ga4-init" strategy="afterInteractive">
+				{`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_ID}');`}
+			</Script>
 			<SmoothScrollLayout />
 		</html>
 	);
