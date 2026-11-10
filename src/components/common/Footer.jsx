@@ -32,7 +32,7 @@ function Footer() {
 					</p>
 					<address className="border-t">
 						<p className="text-sm my-2">
-							green valley, Tirurkkad, Malappuram, Kerala - 679321
+							Angadipuram, Perinthalmanna, Kerala - 679321
 						</p>
 						<p className="text-sm my-2">edstaq@gmail.com</p>
 						<p className="text-sm my-2">+91 7510 2040 21</p>

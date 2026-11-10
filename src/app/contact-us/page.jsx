@@ -41,9 +41,9 @@ function page() {
 						learning solution. Whether you want to book a free
 						class, join our tutor network, or become part of our
 						sales team — we’re just a message away. <br />
-						<br /> 📍 green valley, Tirurkkad, Malappuram, Kerala -
-						679321
+						<br /> 📍 Angadipuram, Perinthalmanna, Kerala - 679321
 						<br /> 📞 +91 7510 2040 21 <br /> ✉️ edstaq@gmail.com
+						<br /> 🕘 Mon–Sat, 9 am – 8 pm
 					</motion.p>
 				</div>
 				<ContactusForam />
