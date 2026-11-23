@@ -13,7 +13,7 @@ function PrivacyPolicy() {
 		<SectionContainer>
 			<div className="max-w-3xl mx-auto py-12 space-y-6">
 				<h1 className="text-3xl font-semibold">Privacy Policy</h1>
-				<p className="text-sm text-gray-500">Last updated: 12 November 2026</p>
+				<p className="text-sm text-gray-500">Last updated: 23 November 2026</p>
 
 				<p>
 					EDSTAQ is a 1:1 online tuition platform for students in classes 1 to 12 (State, CBSE and ICSE),
@@ -31,7 +31,8 @@ function PrivacyPolicy() {
 					</li>
 					<li>
 						<strong>Website usage:</strong> pages visited, device and browser type, approximate location
-						(country or region) and similar technical information, collected through Google Analytics.
+						(country or region) and similar technical information, collected through Google Analytics and the
+						Meta Pixel (see section 4).
 					</li>
 					<li>
 						<strong>Tools on our site:</strong> when you use an online academic diagnostic tool, the
@@ -73,6 +74,15 @@ function PrivacyPolicy() {
 					We share information only with service providers that help us run the website and communicate
 					with you (for example hosting, Google Analytics and our form and messaging tools), and only as
 					needed for those services. We may disclose information when the law requires it.
+				</p>
+				<p>
+					We use the Meta Pixel on our website to measure how our Facebook and Instagram ads work. When
+					you visit our pages, submit a form or tap the WhatsApp button, the Pixel sends Meta a signal
+					that this happened, together with standard browser information such as your device, browser and
+					the page you viewed. We do not send what you type into our forms. Meta may use this
+					information under its own privacy policy, and may connect it to your Facebook or Instagram
+					account if you are logged in. You can control this through your Facebook and Instagram ad
+					settings or by blocking cookies in your browser.
 				</p>
 
 				<h2 className="text-xl font-semibold pt-4">5. Keeping your information safe</h2>
