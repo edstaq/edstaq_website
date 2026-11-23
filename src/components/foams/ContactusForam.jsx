@@ -3,6 +3,7 @@ import CustomButton from "@/components/ui/CustomButton";
 import CustomInput from "@/components/ui/CustomInput";
 import Toast from "@/utils/Toast";
 import { FORM_SUBMIT_URL } from "@/lib/api-config";
+import { trackLead } from "@/lib/meta-pixel";
 import * as motion from "motion/react-client";
 import { useState } from "react";
 
@@ -34,6 +35,7 @@ function ContactusForam() {
 			);
 
 			if (res.ok) {
+				trackLead("contact_form");
 				setTimeout(() => {
 					setIsLoading(false);
 				}, 500);

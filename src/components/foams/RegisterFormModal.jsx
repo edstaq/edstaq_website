@@ -6,6 +6,7 @@ import CustomButton from "../ui/CustomButton";
 import { X } from "lucide-react";
 import Toast from "@/utils/Toast";
 import { FORM_SUBMIT_URL } from "@/lib/api-config";
+import { trackLead } from "@/lib/meta-pixel";
 
 function RegisterFormModal({ isModalOpen, setIsModalOpen }) {
 	const [formData, setFormData] = useState({
@@ -37,6 +38,7 @@ function RegisterFormModal({ isModalOpen, setIsModalOpen }) {
 			);
 
 			if (res.ok) {
+				trackLead("register_form");
 				setTimeout(() => {
 					setIsLoading(false);
 				}, 500);
